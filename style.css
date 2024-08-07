@@ -1,8 +1,23 @@
+input {
+    width: 75%;
+    height: 10px;
+    padding: 0.9rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 0;
+    margin: 12px;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 10px #833591;
+}
+
 .container {
     background-color: #2E1033;
     margin: auto;
 
-    width: 600px;
+    width: 700px;
 
     box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
@@ -41,8 +56,19 @@
     overflow: hidden;
 
     padding: 1.2rem;
+
     display: flex;
     flex-direction: column;
     align-items: center;
-    align-content: space-around;
+
+    width: 85%;
+  
+}
+
+.voting-title {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 100;
+    margin-bottom: 1.2rem;
+    text-align: center;
 }
